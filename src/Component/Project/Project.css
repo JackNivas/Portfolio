@@ -1,0 +1,33 @@
+.project > img {
+    width: 250px;
+    height: 150px;
+}
+
+.project {
+margin-left: 15px;
+width: 250px;
+height:150px;
+transition:transform 100ms ease-in;
+}
+
+.project:hover{
+    color:white;
+    background-color: #f64804;
+    transform: scale(1.05);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.project__content{
+    padding:10px;
+}
+
+.project__content > h4{
+    padding-bottom: 2px;
+}
+
+.project__content > p{
+    font-size:15px;
+}
